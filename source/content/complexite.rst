@@ -22,7 +22,7 @@ Pour évaluer la complexité d'un algorithme:
 Les différentes complexités
 ---------------------------
 
-.. rubric:: Complexité constante :math:`O(1)`
+.. rubric:: Complexité constante O(1)
 
 Les instructions élémentaires comme l'affectation d'une valeur à une variable, les calculs arithmétiques ou logiques, les comparaisons entre 2 valeurs ont un coût constant.
 
@@ -36,7 +36,7 @@ On considère que toutes ces opérations élémentaires ont un coût de 1 « uni
 
    Cette instruction contient 1 addition et 1 affectation qui sont 2 opérations élémentaires à temps constant. Au final cette instruction Python a un coût de 2 unités de temps. Comme le temps est constant, sa complexité est :math:`O(1)`.
 
-.. rubric:: Complexité linéaire :math:`O(n)`
+.. rubric:: Complexité linéaire O(n)
 
 Lorsque le temps d'exécution d'un algorithme dépend de la taille des données à traiter, il faut évaluer l'évolution de ce temps d'exécution par rapport à la taille des données.
 
@@ -58,7 +58,7 @@ Si ce temps d'exécution est **proportionnel** à la taille des données, on dit
    #. Si la valeur cherchée ne figure pas dans le tableau, le tableau est parcouru entièrement puis la fonction renvoie ``False``. C'est la situation dite dans le "pire des cas".
    #. Dans le "pire des cas", si le nombre de valeurs du tableau est doublé, le temps d'exécution est doublé! On a un algorithme de complexité linéaire :math:`O(n)`.
 
-.. rubric:: Complexité quadratique :math:`O(n^2)`
+.. rubric:: Complexité quadratique O(n^2)
 
 Les temps d'exécution d'unalgorithme qui dépend de la taille :math:`n` des données traitées n'est pas systématiquement linéaire. Pour certains algorithmes, lorsque la taille des données est multipliée par une constante :math:`k`, alors le temps d'exécution est multiplié par :math:`k^2`. 
 
